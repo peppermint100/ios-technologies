@@ -39,7 +39,6 @@ struct ContentView: View {
                     .radians(headPhoneManager.yaw),
                     axis: (x: 0, y: 1, z: 0)
                 )
-            
                 .rotation3DEffect(
                     .radians(headPhoneManager.roll),
                     axis: (x: 0, y: 0, z: 1)

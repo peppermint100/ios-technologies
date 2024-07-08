@@ -13,8 +13,9 @@
 		BA5BA0FF2C27E31C00B8B96F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5BA0FE2C27E31C00B8B96F /* Preview Assets.xcassets */; };
 		BA5BA1062C27E36500B8B96F /* HeadPhoneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5BA1052C27E36500B8B96F /* HeadPhoneManager.swift */; };
 		BA5BA10C2C28003800B8B96F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5BA10B2C28003800B8B96F /* MainView.swift */; };
-		BA5BA10E2C2801B600B8B96F /* JumpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5BA10D2C2801B600B8B96F /* JumpView.swift */; };
+		BA5BA10E2C2801B600B8B96F /* SqautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5BA10D2C2801B600B8B96F /* SqautView.swift */; };
 		BA5BA1102C28029D00B8B96F /* HeadPhoneJumpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5BA10F2C28029D00B8B96F /* HeadPhoneJumpManager.swift */; };
+		BA671DD62C3B863300CD5EA7 /* DeviceCoreMotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA671DD52C3B863300CD5EA7 /* DeviceCoreMotionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +26,9 @@
 		BA5BA0FE2C27E31C00B8B96F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA5BA1052C27E36500B8B96F /* HeadPhoneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadPhoneManager.swift; sourceTree = "<group>"; };
 		BA5BA10B2C28003800B8B96F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		BA5BA10D2C2801B600B8B96F /* JumpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpView.swift; sourceTree = "<group>"; };
+		BA5BA10D2C2801B600B8B96F /* SqautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqautView.swift; sourceTree = "<group>"; };
 		BA5BA10F2C28029D00B8B96F /* HeadPhoneJumpManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadPhoneJumpManager.swift; sourceTree = "<group>"; };
+		BA671DD52C3B863300CD5EA7 /* DeviceCoreMotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCoreMotionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +67,9 @@
 				BA5BA0FD2C27E31C00B8B96F /* Preview Content */,
 				BA5BA1052C27E36500B8B96F /* HeadPhoneManager.swift */,
 				BA5BA10B2C28003800B8B96F /* MainView.swift */,
-				BA5BA10D2C2801B600B8B96F /* JumpView.swift */,
+				BA5BA10D2C2801B600B8B96F /* SqautView.swift */,
 				BA5BA10F2C28029D00B8B96F /* HeadPhoneJumpManager.swift */,
+				BA671DD52C3B863300CD5EA7 /* DeviceCoreMotionManager.swift */,
 			);
 			path = AirPodsCoreMotion;
 			sourceTree = "<group>";
@@ -154,7 +157,8 @@
 				BA5BA0FA2C27E31A00B8B96F /* ContentView.swift in Sources */,
 				BA5BA10C2C28003800B8B96F /* MainView.swift in Sources */,
 				BA5BA0F82C27E31A00B8B96F /* AirPodsCoreMotionApp.swift in Sources */,
-				BA5BA10E2C2801B600B8B96F /* JumpView.swift in Sources */,
+				BA5BA10E2C2801B600B8B96F /* SqautView.swift in Sources */,
+				BA671DD62C3B863300CD5EA7 /* DeviceCoreMotionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,8 +295,6 @@
 				DEVELOPMENT_TEAM = ARSZYU7AJ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "헤드폰 연결 상태 확인을 위해 권한을 허용해주세요.";
-				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "헤드폰 연결 상태 확인을 위해 권한을 허용해주세요.";
 				INFOPLIST_KEY_NSMotionUsageDescription = "헤드폰 추적을 위해 권한을 허용해주세요.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -323,8 +325,6 @@
 				DEVELOPMENT_TEAM = ARSZYU7AJ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "헤드폰 연결 상태 확인을 위해 권한을 허용해주세요.";
-				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "헤드폰 연결 상태 확인을 위해 권한을 허용해주세요.";
 				INFOPLIST_KEY_NSMotionUsageDescription = "헤드폰 추적을 위해 권한을 허용해주세요.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

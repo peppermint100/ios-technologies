@@ -19,10 +19,10 @@ struct MainView: View {
                     Text("Headphone")
                 }
             
-            JumpView()
+            SqautView()
                 .tabItem {
-                    Image(systemName: "figure.jumprope")
-                    Text("Jump")
+                    Image(systemName: "figure.cross.training")
+                    Text("Squat")
                 }
         }
     }
